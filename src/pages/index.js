@@ -1,0 +1,71 @@
+import React from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
+
+import styles from './index.module.css';
+
+function HomepageHeader() {
+  const { siteConfig } = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      {/* <div className="container">
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Thales CipherTrust Manager Community Edition
+          </Link>
+        </div>
+      </div> */}
+      <div className="flex flex-col md:flex-row justify-evenly md:mx-auto">
+        <div className="md:w-1/2">
+          <h1 className="text-6xl font-bold m-4">
+            Reduce Drag of Adding Data Security
+          </h1>
+        </div>
+        <div>
+          <div className="bg-white rounded-md px-6 py-6">
+            <div className="flex-col">
+              <h1 className="text-black text-2xl font-bold mb-2">Try Now</h1>
+              <h1 className="text-black text-lg font-semibold text-gray-600">
+                Self-managed | Always Free
+              </h1>
+              <button className="bg-blue-500 p-2 rounded-md">Deploy Now</button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="bg-white rounded-md px-6 py-6">
+            <div className="flex-col">
+              <h1 className="text-black text-2xl font-bold mb-2">Watch Demo</h1>
+              <h1 className="text-black text-lg font-semibold text-gray-600">
+                Self-managed | Always Free
+              </h1>
+              <button className="bg-blue-500 p-2 rounded-md">Watch Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+export default function Home() {
+  const { siteConfig } = useDocusaurusContext();
+  return (
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />"
+    >
+      <HomepageHeader />
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+  );
+}
