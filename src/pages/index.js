@@ -6,11 +6,12 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
+import StepProcessComponent from '../components/StepProcess';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary mb-20', styles.heroBanner)}>
       {/* <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -24,9 +25,10 @@ function HomepageHeader() {
       </div> */}
       <div className="flex flex-col md:flex-row justify-evenly md:mx-auto">
         <div className="md:w-1/2">
-          <h1 className="text-6xl font-bold m-4">
+          <h1 className="text-5xl font-bold m-4">
             Reduce Drag of Adding Data Security
           </h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
         <div>
           <div className="bg-white rounded-md px-6 py-6">
@@ -35,7 +37,7 @@ function HomepageHeader() {
               <h1 className="text-black text-lg font-semibold text-gray-600">
                 Self-managed | Always Free
               </h1>
-              <button className="bg-blue-500 p-2 rounded-md">Deploy Now</button>
+              <button className="bg-blue-500 text-white p-2 rounded-md">Deploy Now</button>
             </div>
           </div>
         </div>
@@ -46,7 +48,7 @@ function HomepageHeader() {
               <h1 className="text-black text-lg font-semibold text-gray-600">
                 Self-managed | Always Free
               </h1>
-              <button className="bg-blue-500 p-2 rounded-md">Watch Demo</button>
+              <button className="bg-blue-500 text-white p-2 rounded-md">Watch Demo</button>
             </div>
           </div>
         </div>
@@ -65,6 +67,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <StepProcessComponent />
       </main>
     </Layout>
   );
