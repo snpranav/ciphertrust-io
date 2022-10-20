@@ -2,20 +2,23 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **CipherTrust Manager in less than 5 minutes**.
 
-## Getting Started
+## Deploy CipherTrust Manager CE
 
-Get started by **creating a new site**.
+To be able to start using CipherTrust Manager, you must first deploy the product on any cloud platform.
+Follow the following guides to deploy CipherTrust Manager on:
+- Amazon Web Services (AWS)
+- Google Cloud Platform (GCP)
+- Azure
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### After deploying CipherTrust Manager
+After deploying CipherTrust Manager, you can immediately start integrate data encryption into your applications using:
+- CipherTrust Manager API
+- Data Protection Gateway
+- Transparent Encryption for Kubernetes
 
 ## Generate a new site
 
