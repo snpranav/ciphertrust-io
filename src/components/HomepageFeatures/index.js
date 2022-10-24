@@ -40,14 +40,14 @@ function Feature({ Img, Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        {Img ? 
-        <img src={Img}></img>
+        {Img ?
+          <img src={Img}></img>
           :
-        <Svg className={styles.featureSvg} role="img" />
-}
+          <Svg className={styles.featureSvg} role="img" />
+        }
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h3 className='text-lg font-semibold text-gray-900 text-black'>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -60,7 +60,7 @@ export default function HomepageFeatures() {
       <div className="container mb-20">
 
         <h1 className="text-4xl text-center font-bold m-4">
-        Tools Built to Reduce Drag on Velocity
+          Tools Built to Reduce Drag on Velocity
         </h1>
         <div className="row">
           {FeatureList.map((props, idx) => (

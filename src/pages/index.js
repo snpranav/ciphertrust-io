@@ -25,10 +25,11 @@ function HomepageHeader() {
       </div> */}
       <div className="flex flex-col md:flex-row justify-evenly md:mx-auto">
         <div className="md:w-1/2">
-          <h1 className="text-5xl font-bold m-4">
+          <h1 className="text-6xl font-bold m-4">
             Reduce Drag of Adding Data Security
           </h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="text-lg">CipherTrust Platform Community Edition allows you to deploy
+data protection – in minutes instead of weeks</p>
         </div>
         <div>
           <div className="bg-white rounded-md px-6 py-6">
