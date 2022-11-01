@@ -119,7 +119,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Thales Group`,
       },
       prism: {
-        theme: lightCodeTheme,
+        // theme: lightCodeTheme,
+        theme: require('prism-react-renderer/themes/dracula'),
         darkTheme: darkCodeTheme,
       },
     }),

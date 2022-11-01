@@ -23,7 +23,7 @@ function HomepageHeader() {
           </Link>
         </div>
       </div> */}
-      <div className="flex flex-col md:flex-row justify-evenly md:mx-auto">
+      <div className="flex flex-col md:flex-row space-y-4 justify-evenly md:mx-auto">
         <div className="md:w-1/2">
           <h1 className="text-6xl font-bold m-4">
             Reduce Drag of Adding Data Security
