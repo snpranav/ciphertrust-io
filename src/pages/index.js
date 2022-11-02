@@ -34,22 +34,22 @@ data protection – in minutes instead of weeks</p>
         <div>
           <div className="bg-white rounded-md px-6 py-6">
             <div className="flex-col">
-              <h1 className="text-black text-2xl font-bold mb-2">Try Now</h1>
+              <h1 className="text-black text-2xl font-bold mb-2 border-none">Try Now</h1>
               <h1 className="text-black text-lg font-semibold text-gray-600">
                 Self-managed | Always Free
               </h1>
-              <button className="bg-blue-500 text-white p-2 rounded-md">Deploy Now</button>
+              <Link href="/docs/intro"><button className="bg-blue-500 text-white p-2 rounded-md">Get Started</button></Link>
             </div>
           </div>
         </div>
         <div>
           <div className="bg-white rounded-md px-6 py-6">
             <div className="flex-col">
-              <h1 className="text-black text-2xl font-bold mb-2">Watch Demo</h1>
+              <h1 className="text-black text-2xl font-bold mb-2  border-none">Watch Demo</h1>
               <h1 className="text-black text-lg font-semibold text-gray-600">
                 Self-managed | Always Free
               </h1>
-              <button className="bg-blue-500 text-white p-2 rounded-md">Watch Demo</button>
+              <Link href="/docs/deploy/azure"><button className="bg-blue-500 text-white p-2 rounded-md">Watch Demo</button></Link>
             </div>
           </div>
         </div>
