@@ -21,7 +21,7 @@ export default function StepProcessComponent() {
                     <h3 className="text-lg font-semibold text-gray-900 text-black">Deploy on Any Cloud Provider</h3>
                     {/* <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2, 2021</time> */}
                     <p className="text-base font-normal">We have marketplace images and terraform configurations for AWS, Google Cloud Platform and Azure.</p>
-                    <Link href="/docs/category/deploy-ciphertrust-platform"><button className="bg-blue-600 p-3 text-white rounded-lg">Watch Demo</button></Link>
+                    <Link href="/docs/category/deploy-ciphertrust-platform"><button className="bg-blue-600 p-3 text-white rounded-lg border-none cursor-pointer">Watch Demo</button></Link>
                 </div>
             </li>
             <li className="relative mb-6 sm:mb-0">
@@ -35,7 +35,7 @@ export default function StepProcessComponent() {
                     <h3 className="text-lg font-semibold text-gray-900 text-black">Centralize Key Management</h3>
                     {/* <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 23, 2021</time> */}
                     <p className="text-base font-normal">Use our extensive platform to store and centralize your key management.</p>
-                    <button className="bg-blue-600 p-3 text-white rounded-lg">Watch Demo</button>
+                    <button className="bg-blue-600 p-3 text-white rounded-lg border-none cursor-pointer">Watch Demo</button>
                 </div>
             </li>
             <li className="relative mb-6 sm:mb-0">
@@ -49,7 +49,7 @@ export default function StepProcessComponent() {
                     <h3 className="text-lg font-semibold text-gray-900 text-black">Integrate Connectors and Secure Data</h3>
                     {/* <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time> */}
                     <p className="text-base font-normal">Use our vast set of connectors to start securing your data seamlessly</p>
-                    <button className="bg-blue-600 p-3 text-white rounded-lg">Watch Demo</button>
+                    <button className="bg-blue-600 p-3 text-white rounded-lg border-none cursor-pointer">Watch Demo</button>
                 </div>
             </li>
         </ul>

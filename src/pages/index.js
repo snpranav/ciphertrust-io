@@ -38,18 +38,18 @@ data protection – in minutes instead of weeks</p>
               <h1 className="text-black text-lg font-semibold text-gray-600">
                 Self-managed | Always Free
               </h1>
-              <Link href="/docs/intro"><button className="bg-blue-500 text-white p-2 rounded-md">Get Started</button></Link>
+              <Link href="/docs/intro"><button className="bg-blue-500 text-white p-2 rounded-md border-none cursor-pointer">Get Started</button></Link>
             </div>
           </div>
         </div>
         <div>
           <div className="bg-white rounded-md px-6 py-6">
             <div className="flex-col">
-              <h1 className="text-black text-2xl font-bold mb-2  border-none">Watch Demo</h1>
+              <h1 className="text-black text-2xl font-bold mb-2">Watch Demo</h1>
               <h1 className="text-black text-lg font-semibold text-gray-600">
                 Self-managed | Always Free
               </h1>
-              <Link href="/docs/deploy/azure"><button className="bg-blue-500 text-white p-2 rounded-md">Watch Demo</button></Link>
+              <Link href="/docs/deploy/azure"><button className="bg-blue-500 text-white p-2 rounded-md border-none cursor-pointer">Watch Demo</button></Link>
             </div>
           </div>
         </div>
@@ -62,8 +62,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`CipherTrust Platform Tutorials - ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`CipherTrust Platform Tutorials`}
+      description="CipherTrust Platform Community Edition allows you to deploy data protection – in minutes instead of weeks. Learn how to deploy and use CipherTrust Manager Community Edition at CipherTrust Learn."
     >
       <HomepageHeader />
       <main>
