@@ -1,33 +1,33 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Google Cloud Platform
+# Amazon Web Services
 
-Deploy CipherTrust Manager CE on Google Cloud Platform in under 5 mins
+Deploy CipherTrust Manager CE on Amazon Web Services in under 5 mins
 
-Get started with CipherTrust Manager Community Edition on Azure you must first deploy the server from the GCP cloud marketplace using [Terraform](##using-terraform)
+Get started with CipherTrust Manager Community Edition on Azure you must first deploy the server from the AWS cloud marketplace using [Terraform](##using-terraform)
 
 ## Using Terraform
 
 import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
 
-<YoutubeEmbed embedId="q6jNmuq1ZUY" />
+<YoutubeEmbed embedId="KEz-jr2Hin4" />
 
 ### Pre-requisite Installations
 You need to install the following packages to follow along with this tutorial.
 * [Git](https://gitscm.org)
 * [Terraform CLI](https://terraform.io/downloads)
-* [GCloud CLI](https://cloud.google.com/sdk/docs/install-sdk#installing_the_latest_version)
+* [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 ```bash title="Terminal"
 git clone https://github.com/thalescpl-io/CipherTrust_Manager.git
-cd CipherTrust_Manager/orchestrators/terraform/gcp/
+cd CipherTrust_Manager/orchestrators/terraform/aws/
 ```
 
-### 2. Login to GCloud CLI
+### 2. Login to AWS CLI
 ```bash title="Terminal"
-gcloud init
+aws configure
 ```
 
 ### 3. Initialize Terraform Modules
