@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
+import GroupButtons from "./VideoButtons/GroupButtons";
 
-const YoutubeEmbed = ({ embedId }) => (
+const YoutubeEmbed = ({ embedId, github, demourl }) => (
+  <>
   <div className="video-responsive">
     <iframe
       width="853"
@@ -13,6 +15,8 @@ const YoutubeEmbed = ({ embedId }) => (
       title="Embedded youtube"
     />
   </div>
+  <GroupButtons href={github} demourl={demourl} />
+  </>
 );
 
 YoutubeEmbed.propTypes = {
